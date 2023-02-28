@@ -76,7 +76,53 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation
 
+- First, you'll need to have Node.js and npm installed on your computer. You can download the latest version of Node.js from the official website.
+
+##
+
+- Clone the repository from GitHub to your local machine using the git clone command.
+
+```md
+git clone https://github.com/MartinCespedes/React_Portfolio.git
+```
+
+##
+
+- Navigate to the project directory in your terminal or command prompt.
+
+```md
+cd your-repository
+```
+
+##
+
+- Run the following command to install the necessary dependencies:
+
+```md
+npm install
+```
+
+- This will install all the required packages and dependencies required for your project to run.
+
+##
+
+- Once the installation is complete, you can start the development server by running the following command:
+
+```md
+npm start
+```
+
+- This will start the development server on http://localhost:3000 by default, and you should be able to view your React website portfolio in your browser.
+
+- That's it! Your React website portfolio project is now installed and running on your local machine.
+
 ## Usage
+
+- My React website portfolio is hosted on GitHub, where it serves as an online showcase of my skills and experience as a web developer.
+
+- Visitors can view my past projects, skills, and experience, as well as read my blog or news section to learn more about my thoughts and insights.
+
+- By hosting my portfolio on GitHub, I can easily share my work with others and collaborate with fellow developers on future projects.
 
 ## Resources/Credit
 
@@ -116,3 +162,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+```
+
+```
