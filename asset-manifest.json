@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.08ef4468.css",
+    "main.js": "/React_Portfolio/static/js/main.7fc4a391.js",
+    "static/media/image (2).png": "/React_Portfolio/static/media/image (2).3fa6f2ba0f857e02c59c.png",
+    "static/media/martin_about_me.png": "/React_Portfolio/static/media/martin_about_me.501004482c55ff6ad675.png",
+    "static/media/project_gamelist.png": "/React_Portfolio/static/media/project_gamelist.853992e3faffda75d03b.png",
+    "static/media/beer_buddy.png": "/React_Portfolio/static/media/beer_buddy.3b6abab955d2ff7ecc2b.png",
+    "static/media/E-Commerce_IMG1.png": "/React_Portfolio/static/media/E-Commerce_IMG1.d5bbe8c4546d8d295266.png",
+    "static/media/MartinCespedesExampleResume.pdf": "/React_Portfolio/static/media/MartinCespedesExampleResume.f6e72ed71027e3c225e2.pdf",
+    "static/media/project_development.png": "/React_Portfolio/static/media/project_development.27ff705095dfbd08348a.png",
+    "static/media/Web_Quiz_1.png": "/React_Portfolio/static/media/Web_Quiz_1.a5c9bdf7d71e4b7e060e.png",
+    "static/media/Guess_My_Number_1.png": "/React_Portfolio/static/media/Guess_My_Number_1.1863749d0b8a382347d4.png",
+    "index.html": "/React_Portfolio/index.html",
+    "main.08ef4468.css.map": "/React_Portfolio/static/css/main.08ef4468.css.map",
+    "main.7fc4a391.js.map": "/React_Portfolio/static/js/main.7fc4a391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ef4468.css",
+    "static/js/main.7fc4a391.js"
+  ]
+}
