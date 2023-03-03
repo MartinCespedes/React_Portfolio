@@ -5,51 +5,71 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+const data = [
+  {
+      avatar: AVTR1,
+      name: 'Maria Frances',
+      review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+    },
+    {
+      avatar: AVTR2,
+      name: 'Johan Doe',
+      review:  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+    },
+    {
+    avatar: AVTR3,
+      name: 'John Doe',
+      review:  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+    },
+    {
+    avatar: AVTR4,
+    name: 'Johanna Doe',
+    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+  },
+    
+]
+
 const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5>Review from clients</h5>
       <h2>Testitmonials</h2>
+
+      <Swiper className="container testimonials__container" 
+          // install Swiper modules
+          modules={[Pagination]}
+          spaceBetween={40}
+          slidesPerView={1}
+   
+          pagination={{ clickable: true }}>
+        {
+          data.map(({avatar, name, review}, index) => {
+          return (
+            <SwiperSlide Key={index} className="testimonial">
+          <div className="client__avatar">
+            <img src={avatar} alt="" />
+          </div>
+          <h5 className='client__name'>{name}</h5>
+            <small className='client__review'>
+             {review}
+            </small>
+       
+        </SwiperSlide>
+          )})
+        }
       
-      <div className="container testimonials__container">
-      <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="" />
-          </div>
-          <h5 className='client__name'> Maria Frances</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi obcaecati debitis doloribus dignissimos in earum reiciendis, animi nostrum voluptatibus rem illum, soluta commodi odio adipisci, unde totam doloremque vel.
-            </small>
-        </article>
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="" />
-          </div>
-          <h5 className='client__name'> Maria Frances</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi obcaecati debitis doloribus dignissimos in earum reiciendis, animi nostrum voluptatibus rem illum, soluta commodi odio adipisci, unde totam doloremque vel.
-            </small>
-        </article>
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="" />
-          </div>
-          <h5 className='client__name'> Maria Frances</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi obcaecati debitis doloribus dignissimos in earum reiciendis, animi nostrum voluptatibus rem illum, soluta commodi odio adipisci, unde totam doloremque vel.
-            </small>
-        </article>
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="" />
-          </div>
-          <h5 className='client__name'> Maria Frances</h5>
-            <small className='client__review'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi obcaecati debitis doloribus dignissimos in earum reiciendis, animi nostrum voluptatibus rem illum, soluta commodi odio adipisci, unde totam doloremque vel.
-            </small>
-        </article>
         
-      </div>
+      </Swiper>
     </section>
   )
 }
