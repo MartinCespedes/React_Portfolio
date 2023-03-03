@@ -42,7 +42,7 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5></h5>
-            <a href="https://wa.me/" target="_blank">Send a message</a>
+            <a href="https://www.facebook.com/" target="_blank">Send a message</a>
 
           </article>
 

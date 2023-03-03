@@ -19,22 +19,22 @@ const data = [
   {
       avatar: AVTR1,
       name: 'Maria Frances',
-      review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+      review: 'I really enjoyed playing the Guess My Number game! The interface was simple and intuitive, and the guessing challenge kept me engaged. Highly recommended!'
     },
     {
       avatar: AVTR2,
-      name: 'Johan Doe',
-      review:  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+      name: 'Oscar Myers',
+      review:  "The gamelist database is an awesome resource for gamers! It's easy to use and provides tons of information. Highly recommended for anyone looking for new games!"
     },
     {
     avatar: AVTR3,
-      name: 'John Doe',
-      review:  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+      name: 'Clinton Smith',
+      review:  'The JavaScript API quiz is a great way to test your knowledge! The questions are challenging but not impossible, and the interface is user-friendly. Highly recommended for aspiring developers!'
     },
     {
     avatar: AVTR4,
-    name: 'Johanna Doe',
-    review: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus perspiciatis ratione sint illo minima accusamus aut perferendis cupiditate, quia porro mollitia! Sint consectetur id laudantium asperiores accusamus molestiae quisquam veniam.'
+    name: 'Destine Colls',
+    review: "Beer Buddy  locator is a fantastic tool for beer enthusiasts! It's easy to find new breweries and types of beer to try, and the interface is intuitive. Highly recommended for anyone looking to explore the world of beer"
   },
     
 ]
