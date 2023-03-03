@@ -18,32 +18,42 @@ const Services = () => {
 
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Design interfaces that captivate and engage users.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Enhance user experience with intuitive design solutions.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Improve user flow and navigation for websites.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Create beautiful and functional mobile app designs.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Optimize user interfaces for greater usability.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Develop UI designs that meet your business goals.
+        </p>
+        </li>
+        <li>
+        <BiCheck className='service__list-icon'/>
+        <p> Transform complex information into easy-to-use interfaces.
+        </p>
+        </li>
+        <li>
+        <BiCheck className='service__list-icon'/>
+        <p> Make your digital products more user-friendly.
         </p>
         </li>
         
@@ -59,39 +69,45 @@ const Services = () => {
 
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Craft compelling and engaging written content.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Create visual content that tells your story.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Produce high-quality videos for your brand.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Develop social media content that drives engagement.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Write SEO-friendly content to boost your visibility.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Design infographics that communicate complex data.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Capture your brand's voice in every piece.
         </p>
         </li>
+        <li>
+        <BiCheck className='service__list-icon'/>
+        <p> Produce content that resonates with your audience.
+        </p>
+        </li>
+        
         
       </ul>
       </article>
@@ -107,32 +123,37 @@ const Services = () => {
 
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Develop custom websites that meet your business needs.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Improve website speed and performance for better user experience.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Build scalable web applications for your business.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Integrate powerful e-commerce solutions into your website.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Secure your website with the latest web technologies.
         </p>
         </li>
         <li>
         <BiCheck className='service__list-icon'/>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        <p> Optimize your website for search engine visibility.
+        </p>
+        </li>
+        <li>
+        <BiCheck className='service__list-icon'/>
+        <p> Provide ongoing website maintenance and support.
         </p>
         </li>
         
