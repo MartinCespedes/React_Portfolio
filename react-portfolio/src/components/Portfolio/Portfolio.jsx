@@ -5,7 +5,7 @@ import IMG2 from '../../assets/project_gamelist.png'
 import IMG3 from '../../assets/Guess_My_Number_1.png'
 import IMG4 from '../../assets/E-Commerce_IMG1.png'
 import IMG5 from '../../assets/Web_Quiz_1.png'
-import IMG6 from '../../assets/project_development.png'
+import IMG6 from '../../assets/Globe_travelr.png'
 
 
 const data = [
@@ -35,7 +35,7 @@ const data = [
     image: IMG4,
     title: 'E-Commerce Backend',
     github:'https://github.com/MartinCespedes/E-Commerce_Back_End',
-    demo: 'https://project-gamelist.herokuapp.com/'
+    demo: 'https://drive.google.com/file/d/1EF2ruLfLVADquC9gUSsbWieEUHMKMo-v/view'
   },
   {
     id:5,
@@ -47,9 +47,9 @@ const data = [
   {
     id:6,
     image: IMG6,
-    title: 'Project in Development',
-    github:'https://github.com/MartinCespedes/Project_3',
-    demo: 'https://github.com/MartinCespedes/Project_3'
+    title: 'Travelr',
+    github:'https://github.com/JaredSchips/travelr',
+    demo: 'https://mighty-shore-93657.herokuapp.com/#'
   },
 ]
 
