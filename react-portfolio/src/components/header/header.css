@@ -47,7 +47,7 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
+    width: 25rem;
     height: 32rem;
     position: absolute;
     left: calc(50% - 11rem);
@@ -75,17 +75,17 @@ header {
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================== */
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 68vh;
     }
 
 
-} */
+}
 
 /* ======================== MEDIA QUERIES (SMALL DEVICES) ======================== */
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
@@ -94,4 +94,45 @@ header {
     .scroll__down {
         display: none;
     }
-} */
+}
+
+@media screen and (max-width: 1024px) {
+    .me {
+        width: 40vw;
+        /* Adjust based on layout */
+        height: 50vh;
+        /* Adjust based on layout */
+    }
+
+    .me img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .me {
+        width: 60vw;
+        /* Adjust based on  layout */
+        height: 70vh;
+        /* Adjust based on layout */
+    }
+
+    .me img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .me {
+        height: 60vh;
+        /* Adjust based on  layout */
+
+    }
+
+    .me img {
+        max-height: 100%;
+
+    }
+}
